@@ -7,7 +7,7 @@
             <% if item.large_image.present? %>
               <%= image_tag(item.large_image , alt: item.title) %>
             <% else %>
-              <%= image_tag("no-image.png" , alt: item.title) %>
+              <%= image_tag("no-image" , alt: item.title) %>
             <% end %>
           </div>
         </div>
