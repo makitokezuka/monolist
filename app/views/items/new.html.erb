@@ -9,7 +9,13 @@
     <div class="alert alert-info">
       <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
       気になったアイテムが欲しければ「Want」持ってれば「Have」しましょう
+      
     </div>
+    
+    <div><%= link_to "ownership",ownerships_path, class: "btn btn-primary" %></div>
+    <div><%= link_to "next #{@page}", new_item_path(@amazon_items), class: "btn btn-primary" %></divb>
+    
+    
     <%= render 'amazon_items' , amazon_items: @amazon_items %>
   <% elsif params[:q].present? %>
     <div class="alert alert-danger">
