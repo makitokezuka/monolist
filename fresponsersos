@@ -1,0 +1,121 @@
+=> [32m#<Amazon::Ecs::Response:0x007fd9748222d8[0m
+ @doc[32m=[0m
+  [1;34m#(Document:0x3fecba41111c {[0m
+    name = [31m[1;31m"[0m[31mdocument[1;31m"[0m[31m[0m,
+    children = [
+      [1;34m#(Element:0x3fecbae9e314 {[0m
+        name = [31m[1;31m"[0m[31mItemLookupResponse[1;31m"[0m[31m[0m,
+        children = [
+          [1;34m#(Element:0x3fecb43262d0 {[0m
+            name = [31m[1;31m"[0m[31mOperationRequest[1;31m"[0m[31m[0m,
+            children = [
+              [1;34m#(Element:0x3fecb432c504 {[0m
+                name = [31m[1;31m"[0m[31mHTTPHeaders[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x3fecb4330d48 {[0m
+                    name = [31m[1;31m"[0m[31mHeader[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb43300b4 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mUserAgent[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb43300a0 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mRuby[1;31m"[0m[31m[0m })]
+                    })]
+                }),
+              [1;34m#(Element:0x3fecbae6f62c {[0m name = [31m[1;31m"[0m[31mRequestId[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m7bfa4068-6b51-4a12-a66e-7e2553addf7c[1;31m"[0m[31m[0m)] }),
+              [1;34m#(Element:0x3fecb43493ac {[0m
+                name = [31m[1;31m"[0m[31mArguments[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x3fecb434d074 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb434c9a8 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAWSAccessKeyId[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb434c994 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAKIAJIRGDGAOQ723B3EA[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb435ca10 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecbae3adc8 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAssociateTag[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecbae3ad78 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mmakitokezuka-22[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb436cf3c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb436c230 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mItemId[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb436c21c {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mB013HXRSK6[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb437f448 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb437e73c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mOperation[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb437e728 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mItemLookup[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb43919b8 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb4390cac {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mResponseGroup[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb4390c98 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mMedium[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb43a1688 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb43a097c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mSearchIndex[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb43a0968 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb43b1a10 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb43b0d04 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mService[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb43b0cf0 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAWSECommerceService[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecb43c1f8c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb43c1280 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mTimestamp[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb43c126c {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m2016-03-03T07:52:20Z[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecbad643a4 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb43d3444 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mVersion[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb43d3430 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m2013-08-01[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x3fecbad4335c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x3fecb43e5a2c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mSignature[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x3fecb43e5a18 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m29Mv2t6epIJe3vAc987NcokTEpkK53E4VZZL3wqAT0A=[1;31m"[0m[31m[0m })]
+                    })]
+                }),
+              [1;34m#(Element:0x3fecb43f5fd0 {[0m name = [31m[1;31m"[0m[31mRequestProcessingTime[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0.0019880000000000[1;31m"[0m[31m[0m)] })]
+            }),
+          [1;34m#(Element:0x3fecb43ffdf0 {[0m
+            name = [31m[1;31m"[0m[31mItems[1;31m"[0m[31m[0m,
+            children = [
+              [1;34m#(Element:0x3fecbad11064 {[0m
+                name = [31m[1;31m"[0m[31mRequest[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x3fecb4402834 {[0m name = [31m[1;31m"[0m[31mIsValid[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mFalse[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x3fecb440d02c {[0m
+                    name = [31m[1;31m"[0m[31mItemLookupRequest[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x3fecb44107b8 {[0m name = [31m[1;31m"[0m[31mIdType[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mASIN[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x3fecb4419d40 {[0m name = [31m[1;31m"[0m[31mItemId[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mB013HXRSK6[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x3fecbacde68c {[0m name = [31m[1;31m"[0m[31mResponseGroup[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mMedium[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x3fecbacd1c98 {[0m name = [31m[1;31m"[0m[31mSearchIndex[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x3fecb442e72c {[0m name = [31m[1;31m"[0m[31mVariationPage[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m)] })]
+                    }),
+                  [1;34m#(Element:0x3fecbacb4274 {[0m
+                    name = [31m[1;31m"[0m[31mErrors[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x3fecb443c084 {[0m
+                        name = [31m[1;31m"[0m[31mError[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x3fecb4440b5c {[0m name = [31m[1;31m"[0m[31mCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAWS.RestrictedParameterValueCombination[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x3fecb444b0fc {[0m
+                            name = [31m[1;31m"[0m[31mMessage[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mリクエストには、使用できないパラメータの組み合わせが含まれています。IdTypeがASINである場合、 SearchIndexは使えません。[1;31m"[0m[31m[0m)]
+                            })]
+                        })]
+                    })]
+                })]
+            })]
+        })]
+    })[32m>[0m

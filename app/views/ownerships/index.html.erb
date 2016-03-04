@@ -4,13 +4,23 @@
 <table class="table table-hover">
   <tbody>
     <tr>
+      <th>type</th>
       <th>user_id</th>
+      <th>user name</th>
       <th>item_id</th>
+      <th>item name</th>
+      <th>item picture</th>
     </tr>
     <% @ownerships.each do |ownership| %>
         <tr>
+          <td><%= ownership.type %></td>
           <td><%= ownership.user_id %></td>
+          <td><%= ownership.user.name %></td>
           <td><%= ownership.item_id %></td>
+          <td><%= ownership.item.title %></td>
+          <td><%= image_tag(ownership.item.small_image , alt: ownership.item.title) %></td>
+           
+          <td></td>
         </tr>
     <% end %>
   </tbody>

@@ -37,27 +37,27 @@ class User < ActiveRecord::Base
 
   ##want/have 実装
   def have(item)
-    have_items.create(item_id: item.id)
+    haves.create(item_id: item.id)
   end
 
   def unhave(item)
-    have_items.find_by(item_id: item.id).destroy
+    haves.find_by(item_id: item.id).destroy
   end
 
   def have?(item)
-    have_items.include?(item)
+    haves.include?(item)
   end
 
   def want(item)
-    want_items.create(item_id: item.id)
+    wants.create(item_id: item.id)
   end
 
   def unwant(item)
-    want_items.find_by(item_id: item.id).destroy
+    wants.find_by(item_id: item.id).destroy
   end
 
   def want?(item)
-    want_items.include?(item)
+    wants.include?(item)
   end
   
 
