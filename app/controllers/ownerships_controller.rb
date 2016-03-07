@@ -26,7 +26,11 @@ class OwnershipsController < ApplicationController
       @item.detail_page_url = amazon_item.get("DetailPageURL")
       @item.raw_info        = amazon_item.get_hash
       @item.save!
+<<<<<<< HEAD
     end      
+=======
+    end  
+>>>>>>> user_item
 
     # ユーザにwant or haveを設定する
 
