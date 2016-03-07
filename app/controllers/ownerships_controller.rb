@@ -26,18 +26,17 @@ class OwnershipsController < ApplicationController
       @item.detail_page_url = amazon_item.get("DetailPageURL")
       @item.raw_info        = amazon_item.get_hash
       @item.save!
-      
+    end  
 
     # ユーザにwant or haveを設定する
 
-      if params[:type]=="Want"
-        current_user.want(@item)
-        
-      elsif params[:type]=="Have"
-        current_user.have(@item)
-      # params[:type]の値にHaveボタンが押された時には「Have」,
-      # Wantボタンが押された時には「Want」が設定されています。
-      end
+    if params[:type]=="Want"
+      current_user.want(@item)
+      
+    elsif params[:type]=="Have"
+      current_user.have(@item)
+    # params[:type]の値にHaveボタンが押された時には「Have」,
+    # Wantボタンが押された時には「Want」が設定されています。
     end
   end
 
