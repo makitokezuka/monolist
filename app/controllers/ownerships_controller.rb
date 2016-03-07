@@ -56,6 +56,6 @@ class OwnershipsController < ApplicationController
   end
   
   def index
-    @ownerships = Ownership.all.order(created_at: :desc)
+    @ownerships = current_user.ownerships.all.order(created_at: :desc)
   end
 end
