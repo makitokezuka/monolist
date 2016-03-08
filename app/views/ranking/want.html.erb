@@ -1,0 +1,36 @@
+<% content_for :head do %>
+  <title>want ranking top10 - monolist</title>
+  <description>
+    欲しいモノのランキングページトップ10です。
+  </description>
+<% end %>
+
+<div class ="panel panel-default">
+    <div class="panel-heading">
+      <h3>ranking-want</h3>
+    </div>
+    <div class="panel-body">
+    <table class="table table-hover">
+    <thead>
+    <tr>
+      <th class="col-md-2"></th>
+      <th class="col-md-1">Ranking</th>
+      <th class="col-md-3">item picture</th>
+      <th class="col-md-4">item name</th>
+      <th class="col-md-2">want point</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <% @rankings.each_with_index do |ranking,i| %>
+        <tr>
+          <td></td>
+          <td><%= i+1 %>位</td>
+          <td><%= image_tag(ranking.medium_image , alt: ranking.title) %></td>
+          <td><%= ranking.title %></td>
+          <td><%= ranking.want_point %></td>
+        </tr>
+    <% end %>
+  </tbody>
+  </div>
+</table>
