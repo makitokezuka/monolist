@@ -18,18 +18,19 @@
       <th class="col-md-1">Ranking</th>
       <th class="col-md-3">item picture</th>
       <th class="col-md-4">item name</th>
-      <th class="col-md-2">have point</th>
+
+
     </tr>
     </thead>
     <tbody>
 
     <% @rankings.each_with_index do |ranking,i| %>
+    <% @item = Item.find_by_id(ranking) %>
         <tr>
           <td></td>
           <td><%= i+1 %>位</td>
-          <td><%= image_tag(ranking.medium_image , alt: ranking.title) %></td>
-          <td><%= ranking.title %></td>
-          <td><%= ranking.have_point %></td>
+          <td><%= image_tag(@item.medium_image , alt: @item.title) %></td>
+          <td><%= @item.title %></td>
         </tr>
     <% end %>
   </tbody>
