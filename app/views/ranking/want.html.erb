@@ -16,19 +16,20 @@
       <th class="col-md-1">Ranking</th>
       <th class="col-md-3">item picture</th>
       <th class="col-md-4">item name</th>
+      <th class="col-md-1">count</th>
 
 
     </tr>
     </thead>
     <tbody>
 
-    <% @rankings.each_with_index do |ranking,i| %>
-    <% @item = Item.find_by_id(ranking) %>
+    <% @rankings.each_with_index do |(ranking,count),i| %>
         <tr>
           <td></td>
           <td><%= i+1 %>位</td>
-          <td><%= image_tag(@item.medium_image , alt: @item.title) %></td>
-          <td><%= @item.title %></td>
+          <td><%= image_tag(ranking.medium_image , alt: ranking.title) %></td>
+          <td><%= ranking.title %></td>
+          <td><%= count %></td>
         </tr>
     <% end %>
   </tbody>

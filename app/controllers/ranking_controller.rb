@@ -1,13 +1,14 @@
 class RankingController < ApplicationController
     
 def have
-    @rankings = Ownership.where(type: "Have").group(:item_id).limit(10).order('count_item_id desc').count('item_id').keys
-
-
+    @rankings = Have.group(:item_id).limit(10).order('count_item_id desc').count('item_id')
+    @rankings.transform_keys!{|key| Item.find(key)}
+    
 end
 
 def want
-    @rankings = Ownership.where(type: "Want").group(:item_id).limit(10).order('count_item_id desc').count('item_id').keys
+    @rankings = Want.group(:item_id).limit(10).order('count_item_id desc').count('item_id')
+    @rankings.transform_keys!{|key| Item.find(key)}
 
 end
 
